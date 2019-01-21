@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/devices"
+        xmlns:tns="http://www.example.com/devices"
+        elementFormDefault="qualified">
+
+    <element name="devices">
+        <complexType>
+            <sequence>
+                <element name="device" type="tns:Device" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <complexType name="Device">
+        <sequence>
+            <element name="name" type="string" minOccurs="1"/>
+            <element name="origin" type="tns:Origin" minOccurs="1"/>
+            <element name="price" type="tns:Price" minOccurs="1"/>
+            <element name="type" type="tns:Type" minOccurs="1"/>
+            <element name="critical" type="boolean" minOccurs="1"/>
+        </sequence>
+        <attribute name="id" type="positiveInteger"/>
+    </complexType>
+
+    <simpleType name="Origin">
+        <restriction base="string">
+            <pattern value="[a-zA-Z0-9+]{3,15}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="Price">
+        <restriction base="decimal">
+            <pattern value="[\d]{1,5}"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="TypeDevice">
+        <restriction base="string">
+            <enumeration value="Multimedia"/>
+            <enumeration value="IO"/>
+        </restriction>
+    </simpleType>
+
+    <complexType name="Type">
+        <sequence>
+            <element name="is-peripheral" type="boolean"/>
+            <element name="power-usage" type="string"/>
+            <element name="with-cooler" type="boolean"/>
+            <element name="component-group" type="tns:TypeDevice"/>
+        </sequence>
+        <attribute name="port-type">
+            <simpleType>
+                <restriction base="string">
+                    <enumeration value="USB"/>
+                    <enumeration value="LPT"/>
+                    <enumeration value="COM"/>
+                </restriction>
+            </simpleType>
+        </attribute>
+    </complexType>
+</schema>

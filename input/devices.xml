@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<devices xmlns="http://www.example.com/devices">
+    <device id="1">
+        <name>Device 1</name>
+        <origin>China</origin>
+        <price>500</price>
+        <type port-type="USB">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>true</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="2">
+        <name>Device 2</name>
+        <origin>USA</origin>
+        <price>500</price>
+        <type port-type="COM">
+            <is-peripheral>true</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>Multimedia</component-group>
+        </type>
+        <critical>false</critical>
+    </device>
+    <device id="3">
+        <name>Device 3</name>
+        <origin>China</origin>
+        <price>500</price>
+        <type port-type="LPT">
+            <is-peripheral>true</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>true</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="4">
+        <name>Device 4</name>
+        <origin>Germany</origin>
+        <price>500</price>
+        <type port-type="COM">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="5">
+        <name>Device 5</name>
+        <origin>China</origin>
+        <price>300</price>
+        <type port-type="USB">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>Multimedia</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="6">
+        <name>Device 6</name>
+        <origin>USA</origin>
+        <price>700</price>
+        <type port-type="COM">
+            <is-peripheral>true</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>true</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="7">
+        <name>Device 7</name>
+        <origin>China</origin>
+        <price>500</price>
+        <type port-type="LPT">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="8">
+        <name>Device 8</name>
+        <origin>Germany</origin>
+        <price>100</price>
+        <type port-type="USB">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>Multimedia</component-group>
+        </type>
+        <critical>false</critical>
+    </device>
+    <device id="9">
+        <name>Device 9</name>
+        <origin>China</origin>
+        <price>500</price>
+        <type port-type="USB">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>true</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="10">
+        <name>Device 10</name>
+        <origin>USA</origin>
+        <price>500</price>
+        <type port-type="COM">
+            <is-peripheral>true</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>Multimedia</component-group>
+        </type>
+        <critical>false</critical>
+    </device>
+    <device id="11">
+        <name>Device 11</name>
+        <origin>China</origin>
+        <price>500</price>
+        <type port-type="LPT">
+            <is-peripheral>true</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>true</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="12">
+        <name>Device 12</name>
+        <origin>Germany</origin>
+        <price>500</price>
+        <type port-type="COM">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="13">
+        <name>Device 13</name>
+        <origin>China</origin>
+        <price>300</price>
+        <type port-type="USB">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>Multimedia</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="14">
+        <name>Device 14</name>
+        <origin>USA</origin>
+        <price>700</price>
+        <type port-type="COM">
+            <is-peripheral>true</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>true</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="15">
+        <name>Device 15</name>
+        <origin>China</origin>
+        <price>500</price>
+        <type port-type="LPT">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>IO</component-group>
+        </type>
+        <critical>true</critical>
+    </device>
+    <device id="16">
+        <name>Device 16</name>
+        <origin>Germany</origin>
+        <price>100</price>
+        <type port-type="USB">
+            <is-peripheral>false</is-peripheral>
+            <power-usage>100</power-usage>
+            <with-cooler>false</with-cooler>
+            <component-group>Multimedia</component-group>
+        </type>
+        <critical>false</critical>
+    </device>
+</devices>
